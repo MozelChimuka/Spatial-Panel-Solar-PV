@@ -9,6 +9,8 @@ Solar irradiance (GHI) is the main driver of PV output, but panel efficiency als
 > **Important:** Weather inputs are real; PV yield is **simulated**. Results validate a method. They are **not** engineering yield estimates for Zambian solar plants.
 
 ## Data
+| Item | Detail |
+|---|---|
 | Panel | 10 provinces × 2,192 days = **21,920 observations** (balanced), 2020–2025 |
 | Weather inputs | Daily GHI (kWh/m²/day) and ambient temperature (°C) from the Open-Meteo Historical Weather API (ECMWF ERA5 reanalysis) |
 | Yield (simulated) | Fixed baseline panel efficiency, a linear thermal derating penalty above 25°C, and an additive random noise term |
